@@ -2,9 +2,10 @@
 <html>
 
 <head>
-	<title>9-16 Power</title>
+	<title>Video Player</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" type="image/x-icon" href="logo.png">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -23,7 +24,7 @@
 			<!-- Header -->
 			<header id="header">
 				<div id="content">
-					<div id="bm"> </div>
+					<!-- <div id="bm"> </div> -->
 					<div id="player">
 						<lottie-player id="lottie-player"
 							src="https://assets9.lottiefiles.com/packages/lf20_PBgNop.json" background="transparent"
@@ -32,19 +33,31 @@
 					</div>
 					<div id="options">
 						<form id="myForm">
-							<div class="mb-3">
-								<label for="text1" class="form-label">Text1</label>
-								<input type="text" name="text1" class="form-control" id="text1">
+							<div class="mb-3 d-flex justify-content-between align-items-center">
+								<label for="text1" class="form-label">Text 1</label>
+								<input type="text" name="text1" class="form-control" id="text1" value="SEZONUN">
 							</div>
-							<div class="mb-3">
-								<label for="text2" class="form-label">Text2</label>
-								<input type="text" name="text2" class="form-control" id="text2">
+							<div class="mb-3 d-flex justify-content-between align-items-center">
+								<label for="text2" class="form-label">Text 2</label>
+								<input type="text" name="text2" class="form-control" id="text2" value="EN TREND">
 							</div>
-							<div class="mb-3">
-								<label for="text3" class="form-label">Text3</label>
-								<input type="text" name="text3" class="form-control" id="text3">
+							<div class="mb-3 d-flex justify-content-between align-items-center">
+								<label for="text3" class="form-label">Text 3</label>
+								<input type="text" name="text3" class="form-control" id="text3" value="ÜRÜNÜ">
 							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
+							<div class="mb-3 d-flex justify-content-between align-items-center">
+								<label for="text4" class="form-label">Text 4</label>
+								<input type="text" name="text4" class="form-control" id="text4" value="SÜPER KOT">
+							</div>
+							<div class="mb-3 d-flex justify-content-between align-items-center">
+								<label for="text5" class="form-label">Text 5</label>
+								<input type="text" name="text5" class="form-control" id="text5" value="PANTOLON">
+							</div>
+							<div class="mb-3 d-flex justify-content-between align-items-center">
+								<label for="text6" class="form-label">Text 6</label>
+								<input type="text" name="text6" class="form-control" id="text6" value="9999 USD">
+							</div>							
+							<button type="submit" class="form-control btn btn-info">Submit</button>
 						</form>
 					</div>
 				</div>
